@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  
+}
+.site {
+  width: 400px;
+  margin: auto;
+  background-color: rgb(238, 196, 11);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titulo {
+  padding: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 255px;
+}
+input {
+  height: 40px;
+  padding: 0px;
+  border: none;
+}
+label {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+button {
+  background-color: black;
+  color: rgb(238, 196, 11);
+  width: 232px;
+  height: 25px;
+}
+
+.result {
+  background: black;
+  width: 231px;
+  height: 100px;
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
